@@ -1,0 +1,46 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorBody {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border-radius: 8px;
+    border-style: solid;
+    width: 400px;
+    height: 600px;
+    background-color: grey;
+}
+
+.calculatorScreen {
+
+    border-radius: 8px;
+    border-style: solid;
+    width: 360px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px 0 20 0;
+}
+
+.calculatorBtns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+button {
+
+    border-radius: 8px;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}
