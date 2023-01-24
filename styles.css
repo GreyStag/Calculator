@@ -1,9 +1,19 @@
 body {
-    background-color: aquamarine;
+    margin: 0px;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    padding-top: 150px;
+    position: relative;
 }
 
 .calculatorBody {
@@ -11,36 +21,71 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 
-    border-radius: 8px;
+    border-radius: 25px;
     border-style: solid;
     width: 400px;
-    height: 600px;
-    background-color: grey;
+    height: 620px;
+    background-color: rgb(20, 18, 18);
 }
 
 .calculatorScreen {
 
-    border-radius: 8px;
+    border-radius: 16px;
     border-style: solid;
     width: 360px;
     height: 100px;
-    background-color: aqua;
-    margin: 20px 0 20 0;
+    background-color: rgb(78, 87, 87);
+    margin: 20 0 20 0;
 }
 
 .calculatorBtns {
     display: flex;
     justify-content: center;
+    align-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 20;
 }
 
 button {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     border-style: solid;
     border-color: aliceblue;
     width: 60px;
     height: 60px;
-    background-color: black;
+    background-color: rgb(80, 79, 79);
+}
+
+.btn:hover {
+    background-color: rgb(44, 43, 43)
+}
+
+.doubleSize {
+    width: 150px;
+    height: 60px;
+}
+
+
+.operators {
+    background-color: darkorange;
+}
+.operators:hover {
+    background-color: rgb(241, 158, 55);
+
+}
+
+.grey {
+    background-color: rgb(150, 147, 147);
+}
+
+.grey:hover {
+    background-color: rgb(175, 170, 170);
+}
+
+p {
+    color: aliceblue;
+    font-size: 32px;
 }
