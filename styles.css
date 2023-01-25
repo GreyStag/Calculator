@@ -29,6 +29,10 @@ img {
 }
 
 .calculatorScreen {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
 
     border-radius: 16px;
     border-style: solid;
@@ -36,6 +40,10 @@ img {
     height: 100px;
     background-color: rgb(78, 87, 87);
     margin: 20 0 20 0;
+}
+
+.screenOutput {
+    margin-right: 16px;
 }
 
 .calculatorBtns {
@@ -57,6 +65,8 @@ button {
     width: 60px;
     height: 60px;
     background-color: rgb(80, 79, 79);
+    color: aliceblue;
+    font-size: 32px;
 }
 
 .btn:hover {
@@ -73,8 +83,7 @@ button {
     background-color: darkorange;
 }
 .operators:hover {
-    background-color: rgb(241, 158, 55);
-
+    background-color: rgb(219, 121, 1);
 }
 
 .grey {
@@ -82,7 +91,7 @@ button {
 }
 
 .grey:hover {
-    background-color: rgb(175, 170, 170);
+    background-color: rgb(122, 120, 120);
 }
 
 p {
